@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          Navbar
+          <h1> Navbar</h1>
         </a>
         <button
           class="navbar-toggler"
@@ -60,9 +60,19 @@ const Navbar = () => {
         // height="50%"
         alt="Logo"
       />
-      <h3>Hello.. My name is </h3>
-      <h1>Sania Bansotra</h1>
-      <h3>I am a Web Developer</h3>
+      <div class="navtext">
+        <h4>Hello.. My name is </h4>
+        <h1 class="name">
+          <b>Sania Bansotra</b>
+        </h1>
+        <h4>
+          I am a <span class="name">Web Developer</span>
+        </h4>
+        <h6>To know more about me </h6>
+        <button type="button" class="btn btn-secondary">
+          Click here
+        </button>
+      </div>
     </>
   );
 };
