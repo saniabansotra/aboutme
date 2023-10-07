@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+body{
+  background-image: url(components/back.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.frontpic{
+  /* position:absolute; */
+  border-style: dashed;
+  backdrop-filter: blur(6px);
+  display: -webkit-box;
+ border-radius: 50%;
+ 
+
+margin-left: auto;
+margin-top: 3%;
+
+
+  height:500px;
+  width:450px;
 }
